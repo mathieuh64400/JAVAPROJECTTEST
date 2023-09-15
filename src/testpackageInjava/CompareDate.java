@@ -15,7 +15,7 @@ public class CompareDate {
 			      new SimpleDateFormat ("yyyy-MM-dd");
 		 
 		 //definition d'une date sous un certain format 
-		 Date date1 = ft.parse("2020-01-30");
+		 Date date1 = ft.parse("2020-10-30");
 
 	        Date dNow= new Date();
 	        

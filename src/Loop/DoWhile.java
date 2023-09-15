@@ -4,7 +4,7 @@ public class DoWhile {
 	public static void main(String args[]) {
 		Random random = new Random(); 
 		int i = random.nextInt(50);   
-		int j0= random.nextInt(50);
+		int j0= random.nextInt(10);
 		int result=0;
 		// System.out.println(i);
 //		 int i = 0;
@@ -18,14 +18,14 @@ public class DoWhile {
 		
 	
 		do {
-			result=(j0-i)/3;
+			result=(i-j0)/3;
 		  System.out.println("i est ="+i);
 		  System.out.println("J est ="+j0);
 		  System.out.println("result est = "+ result);
 		  i++;
 		  j0--;
 		}
-		while (i < 50);
+		while (result < 20);
 		
 		
 		

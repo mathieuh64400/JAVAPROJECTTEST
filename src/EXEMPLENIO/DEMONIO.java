@@ -17,7 +17,7 @@ public class DEMONIO {
 //		System.out.println(result);
 		
 		
-		FileOutputStream fout  = new FileOutputStream("C:\\Users\\mhedot\\eclipse-workspace\\test_demo\\src\\name3.txt");
+	/*	FileOutputStream fout  = new FileOutputStream("C:\\Users\\mhedot\\eclipse-workspace\\test_demo\\src\\name3.txt");
 		//ecrire une data sous forme octet
 		FileChannel r =fout.getChannel(); //creation d'un channel;
 		ByteBuffer wBuffer = ByteBuffer.allocate(1024); // allocation du nombre d'octet au tampon;
@@ -26,7 +26,7 @@ public class DEMONIO {
 		wBuffer.flip(); //fixe a zero la position de depart du message dans le fichier;
 		r.write(wBuffer);
 		
-		System.out.println("succes");
+		System.out.println("succes");*/
 	}
 
 }

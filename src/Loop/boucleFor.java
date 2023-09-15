@@ -7,16 +7,17 @@ public class boucleFor {
 	int arr[]= new int[4];
 	
 	
-//	for(int i=0; i<arr.length; i++) {
-//		arr[i]=j;
-//		System.out.println(arr[i]);
-//		j++;
-//	}
-//	
+	for(int i=0; i<arr.length; i++) {
+		arr[i]=j;
+		System.out.println("first"+arr[i]);
+		j++;
+	}
+	
 	
 	int[] numbers= {7,10,100,1000};
 	int result=0;
 	for(int item: numbers) {
+		System.out.println("item "+item);
     	result=item%7;
 //		System.out.println("result"+result);
 		System.out.println(result);

@@ -18,7 +18,7 @@ public class MapExemple {
 		 for(int i=0;i<arr.length;i++) {
 			 hm.put(arr[i], i*4);
 		 }
-		  System.out.println(hm);
+		  System.out.println("hm "+hm);
 		  
 		  System.out.println(hm.get("A"));
 		  

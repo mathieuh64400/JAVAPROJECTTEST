@@ -32,8 +32,8 @@ public class linkedListExemple {
         System.out.println(listex);
         
         // Creating another linked list and copying
-        LinkedList<String> sec_list = new LinkedList();
-        sec_list = (LinkedList) listex.clone();
+        LinkedList<String> sec_list = new LinkedList<>();
+        sec_list = (LinkedList<String>) listex.clone();
         
         System.out.println("copie "+sec_list);
         // Clearing the list
@@ -43,7 +43,7 @@ public class linkedListExemple {
         System.out.println("copie "+sec_list);
         
         String value = listex.element();
-        
+      
         // print the head of list
         System.out.println("Head of list : " + value);
         
@@ -51,7 +51,7 @@ public class linkedListExemple {
         // adds element at tail.
         listex.offer("Astha");
         
-        System.out.println(listex);
+        System.out.println("offer "+listex);
         
         System.out.println(" -------- ");
         

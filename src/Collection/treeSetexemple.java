@@ -56,7 +56,7 @@ public class treeSetexemple {
            iterate = tail_set.iterator();
      
            // Displaying the tree set data
-           System.out.println("The resultant values from the tail: ");
+           System.out.println("The resultant values from the tail: "+tail_set);
      
            // Iterating through the tailSet
            while (iterate.hasNext()) {

@@ -39,9 +39,9 @@ package heritage;
 		System.out.println(this.titre +"mort en"+ this.finDeReigne +" transmet le trone a "+this.successeur );
 	}
 	
-	public  String agir() {
+	private  String agir() {
 		
-		return this.gouverner() +this.titre+ "de la dynastie"+this.Nom +" qui a debute sont reigne en"+ this.debutDeReigne +" a declanché une guerre contre "+this.rivale+" car il est "+ this.caractere;
+		return this.gouverner()+this.titre+ "de la dynastie"+this.Nom +" qui a debute sont reigne en"+ this.debutDeReigne +" a declanché une guerre contre "+this.rivale+" car il est "+ this.caractere;
 		
 		
 	}

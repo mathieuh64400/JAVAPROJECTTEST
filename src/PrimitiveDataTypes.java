@@ -31,7 +31,7 @@ public class PrimitiveDataTypes{
 		arr[1]= 200;
 //		arr[2]= 300;
 		
-		System.out.println(arr[0]);
+		System.out.println(arr[1]);
 		
 	}
 	
